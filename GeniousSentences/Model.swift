@@ -26,4 +26,14 @@ public class Model {
 
         return result
     }
+
+    func numberStepsLeft() -> Int {
+        return words.count
+    }
+
+    func nextWordToDisplay() -> String {
+        guard let word = words.first else { return "" }
+            words.remove(at: 0)
+        return word
+    }
 }

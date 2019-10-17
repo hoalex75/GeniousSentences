@@ -6,6 +6,7 @@ target 'GeniousSentences' do
   use_frameworks!
   pod 'RxSwift', '~> 4.5'
   pod 'RxCocoa', '~> 4.5'
+  pod 'RxGesture'
 
   # Pods for GeniousSentences
 

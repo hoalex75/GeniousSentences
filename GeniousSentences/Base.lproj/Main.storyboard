@@ -47,9 +47,6 @@
                             <constraint firstItem="TWL-yV-svI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uso-lK-5cr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="XP2-ch-7Zc" appends="YES" id="i4f-Wn-baK"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="button" destination="TWL-yV-svI" id="NL7-E9-uyr"/>
@@ -58,11 +55,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="XP2-ch-7Zc">
-                    <connections>
-                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="zQ1-k1-JjQ"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
